@@ -229,4 +229,4 @@
 | 83          | NE          |
 | 84          | Valor       |
 | 85          | WILL        |
-| 86          | LC          |
+| 86          | Learning Center          |
