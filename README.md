@@ -2,7 +2,7 @@
 
 # Attendance
 
-| ARC            | Type    | Description                                     |
+| ARC            | Type    | DeansList Description                                     |
 |--------------------|--------------|---------------------------------------------------------|
 | AttendanceCode     | Text   |                                                         |
 | Behavior           | Text |                                                         |
@@ -32,7 +32,7 @@
 
 # Communications
 
-| ARC                | Type         | Description                                             |
+| ARC                | Type         | DeansList Description                                             |
 |--------------------|--------------|---------------------------------------------------------|
 | CallDateTime     | Datetime   |                                                         |
 | CallStatus         | Text |                                                         |
