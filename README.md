@@ -213,20 +213,20 @@
 # School IDs
 | School ID # | School Name |
 |-------------|-------------|
-| 82          | KEY         |
-| 81          | AIM         |
-| 85          | WILL        |
-| 73          | LEAP        |
-| 77          | Promise     |
+| 70          | Connect     |
 | 71          | Discover    |
 | 72          | Grow        |
+| 73          | LEAP        |
+| 74          | ATA         |
 | 75          | Heights     |
 | 76          | Lead        |
-| 79          | Spring      |
-| 70          | Connect     |
-| 83          | NE          |
-| 74          | ATA         |
-| 84          | Valor       |
+| 77          | Promise     |
 | 78          | Quest       |
-| 86          | LC          |
+| 79          | Spring      |
 | 80          | KCP         |
+| 81          | AIM         |
+| 82          | KEY         |
+| 83          | NE          |
+| 84          | Valor       |
+| 85          | WILL        |
+| 86          | LC          |
