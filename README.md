@@ -67,50 +67,50 @@
 | ARC                | Type      | DeansList Description                                              |
 |--------------------|-----------|----------------------------------------------------------|
 | Actions            |           | Array of student behaviors associated with this incident |
-| AddlReqs           | text      | Additional Requirements                                  |
-| AdminSummary       | text      | Administrative Summary                                   |
-| Alcohol Related    | binary    |                                                          |
-| Category           | text      | Referral Category                                        |
-| CategoryID         | int       | DL ID for referral category                              |
+| AddlReqs           | Text      | Additional Requirements                                  |
+| AdminSummary       | Text      | Administrative Summary                                   |
+| Alcohol Related    | Binary    |                                                          |
+| Category           | Text      | Referral Category                                        |
+| CategoryID         | Int       | DL ID for referral category                              |
 | CloseTS            | Datetime  | Meeting end time                                         |
-| Context            | text      | Context Notes                                            |
-| CreateBy           | int       | DL User ID of creating user                              |
+| Context            | Text      | Context Notes                                            |
+| CreateBy           | Int       | DL User ID of creating user                              |
 | CreateFirst        | Initiated |                                                          |
-| CreateLast         |           |                                                          |
-| CreateMiddle       |           |                                                          |
+| CreateLast         | Initiated          |                                                          |
+| CreateMiddle       | Initiated         |                                                          |
 | CreateTS           | Datetime  | Creation timestamp                                       |
-| CreateTitle        |           |                                                          |
-| Drug Related       | binary    |                                                          |
-| FamilyMeetingNotes | text      |                                                          |
-| FollowupNotes      |           |                                                          |
-| GradeLevelShort    | text      | Grade Level (i.e. 1st)                                   |
-| HomeroomName       | text      |                                                          |
-| IncidentID         | int       | Unique incident identifier                               |
-| Infraction         | text      |                                                          |
-| InfractionTypeID   | int       | DL ID for infraction type                                |
+| CreateTitle        | Datetime          |                                                          |
+| Drug Related       | Binary    |                                                          |
+| FamilyMeetingNotes | Text      |                                                          |
+| FollowupNotes      | Text         |                                                          |
+| GradeLevelShort    | Text      | Grade Level (i.e. 1st)                                   |
+| HomeroomName       | Text      |                                                          |
+| IncidentID         | Int       | Unique incident identifier                               |
+| Infraction         | Text      |                                                          |
+| InfractionTypeID   | Int       | DL ID for infraction type                                |
 | IsReferral         | T/F       | Incident was created as the result of a referral         |
-| IssueTS            | datetime  | Initiated                                                |
-| Link               | text      |                                                          |
-| Location           | text      |                                                          |
-| LocationID         | int       | DL ID for location (dropdown)                            |
-| Police Involved    | binary    |                                                          |
-| ReportedDetails    | text      | Meeting details (input by teacher from referral)         |
+| IssueTS            | Datetime  | Initiated                                                |
+| Link               | Text      |                                                          |
+| Location           | Text      |                                                          |
+| LocationID         | Int       | DL ID for location (dropdown)                            |
+| Police Involved    | Binary    |                                                          |
+| ReportedDetails    | Text      | Meeting details (input by teacher from referral)         |
 | ReturnDate         | Datetime  | Return to school                                         |
-| ReturnPeriod       | int       | Return to school period                                  |
+| ReturnPeriod       | Int       | Return to school period                                  |
 | ReviewTS           | Datetime  | Meeting start time                                       |
-| SchoolID           | int       | DeansList School ID                                      |
+| SchoolID           | Int       | DeansList School ID                                      |
 | SendAlert          | T/F       |                                                          |
-| Status             | text      | only in list view                                        |
-| StatusID           | int       |                                                          |
-| StudentFirst       | text      |                                                          |
-| StudentID          | int       | DeansList Student ID                                     |
-| StudentLast        | text      |                                                          |
-| StudentMiddle      | text      |                                                          |
-| StudentSchoolID    | int       | Student School ID #                                      |
-| UpdateFirst        | text      |                                                          |
-| UpdateLast         | text      |                                                          |
-| UpdateMiddle       | text      |                                                          |
-| UpdateTS           | text      | Last update timestamp                                    |
+| Status             | Text      | only in list view                                        |
+| StatusID           | Int       |                                                          |
+| StudentFirst       | Text      |                                                          |
+| StudentID          | Int       | DeansList Student ID                                     |
+| StudentLast        | Text      |                                                          |
+| StudentMiddle      | Text      |                                                          |
+| StudentSchoolID    | Int       | Student School ID #                                      |
+| UpdateFirst        | Text      |                                                          |
+| UpdateLast         | Text      |                                                          |
+| UpdateMiddle       | Text      |                                                          |
+| UpdateTS           | Text      | Last update timestamp                                    |
 | Weapon Related     | Int       |                                                          |
-| Hearing            | text      |                                                          |
-| InjuryType         | text      |                                                          |
+| Hearing            | Text      |                                                          |
+| InjuryType         | Text      |                                                          |
