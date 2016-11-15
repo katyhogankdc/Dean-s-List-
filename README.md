@@ -1,5 +1,5 @@
 # DeansList
-| # ARC                | # Type         | # Description                                             |
+| # ARC            | # Type    | # Description                                     |
 |--------------------|--------------|---------------------------------------------------------|
 | AttendanceCode     | Varchar(5)   |                                                         |
 | Behavior           | Varchar(100) |                                                         |
