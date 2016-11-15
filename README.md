@@ -1,7 +1,7 @@
 # DeansList
 
-# Attendance
 
+# Attendance
 | ARC            | Type    | DeansList Description                                     |
 |--------------------|--------------|---------------------------------------------------------|
 | AttendanceCode     | Text   |                                                         |
@@ -30,8 +30,8 @@
 | StudentMiddleName  | Text |                                                         |
 | StudentSchoolID    | Int          | Student's School ID                                     |
 
-# Communications
 
+# Communications
 | ARC                | Type         | DeansList Description                                             |
 |--------------------|--------------|---------------------------------------------------------|
 | CallDateTime     | Datetime   |                                                         |
@@ -62,8 +62,8 @@
 | StudentSchoolID  | Int | School Student ID                                                        |
 | UserSchoolID    | Int          | School Staff ID #                                    |
 
-# Incidents
 
+# Incidents
 | ARC                | Type      | DeansList Description                                              |
 |--------------------|-----------|----------------------------------------------------------|
 | Actions            |           | Array of student behaviors associated with this incident |
@@ -114,3 +114,119 @@
 | Weapon Related     | Int       |                                                          |
 | Hearing            | Text      |                                                          |
 | InjuryType         | Text      |                                                          |
+
+
+# Paychecks
+| ARC              | Type     | Description |
+|------------------|----------|-------------|
+| Behavior         | Text     |             |
+| BehaviorCategory | Text     |             |
+| BehaviorDate     | Datetime |             |
+| FirstName        | Text     |             |
+| FullName         | Text     |             |
+| LastName         | Text     |             |
+| PointValue       | Int      |             |
+| Roster           | Text     |             |
+| SchoolID         | Int      |             |
+| SchoolName       | Text     |             |
+| SectionID        | Int      |             |
+| SourceSystem     | Text     |             |
+| StaffFullName    | Text     |             |
+| Student_Number   | Int      |             |
+
+
+# Penalties
+| ARC               | Type     | Description                                 |
+|-------------------|----------|---------------------------------------------|
+| EndDate           | Datetime | Penalty end date                            |
+| IncidentID        | Int      | Parent Incident ID                          |
+| IncidentPenaltyID | Bigint   | Unique identifier for this incident penalty |
+| NumDays           | Int      | Days                                        |
+| NumPeriods        | Int      | Periods                                     |
+| PenaltyID         | Int      | ID of penalty type                          |
+| PenaltyName       | Text     | Penalty #                                   |
+| SchoolID          | Int      | DL internal school ID                       |
+| StartDate         | Datetime | Penalty start date                          |
+| StudentSchoolID   | Int      |                                             |
+
+
+# Rosters
+| ARC                    | Type  | Description                        |
+|------------------------|-------|------------------------------------|
+| DLRosterID             | Int   |                                    |
+| DLSchoolID             | Int   | DeansList School ID                |
+| DLStudentID            | Int   |                                    |
+| FirstName              | Text  |                                    |
+| GradeLevel             | Text  |                                    |
+| IntegrationID          | Float | SIS Identifier                     |
+| LastName               | Text  |                                    |
+| MiddleName             | Text  |                                    |
+| RosterName             | Text  | DeansList unique roster identifier |
+| SchoolName             | Text  |                                    |
+| SecondaryIntegrationID | Float | Secondary SIS Identifier           |
+| SecondaryStudentID     | Int   | Additional Student School ID #     |
+| StudentSchoolID        | Int   | Student School ID #                |
+
+
+# School Bridge
+| ARC        | Type | Description |
+|------------|------|-------------|
+| DLSchoolID | Int  |             |
+| PSSchoolID | Int  |             |
+
+
+# Students
+| ARC                | Type     | Description                    |
+|--------------------|----------|--------------------------------|
+| DLSchoolID         | Int      | DeansList School ID            |
+| DLStudentID        | Int      |                                |
+| EndDate            | Datetime | Current Enrollment End Date    |
+| FirstName          | Text     |                                |
+| GradeLevel         | Text     |                                |
+| LastName           | Text     |                                |
+| MiddleName         | Text     |                                |
+| SchoolName         | Text     |                                |
+| SecondaryStudentID | Int      | Additional School Student ID # |
+| StartDate          | Datetime | Current Enrollment Start Date  |
+| StudentSchoolID    | Int      | Student School ID #            |
+
+
+# Users
+| ARC          | Type         | Description                               |
+|--------------|--------------|-------------------------------------------|
+| Active       | Varchar(5)   |                                           |
+| DLSchoolID   | Int          | DeansList School ID                       |
+| DLUserID     | Int          |                                           |
+| Email        | Varchar(100) |                                           |
+| FirstName    | Varchar(50)  |                                           |
+| GroupName    | Varchar(50)  | User access level (teacher/administrator) |
+| LastName     | Varchar(50)  |                                           |
+| MiddleName   | Varchar(50)  |                                           |
+| SchoolName   | Varchar(50)  |                                           |
+| StaffRole    | Varchar(50)  |                                           |
+| Title        | Varchar(10)  |                                           |
+| UserSchoolID | Int          | School Staff ID #                         |
+| UserStateID  | Int          |                                           |
+| Username     | Varchar(50)  | Login username                            |
+
+
+# School IDs
+| School ID # | School Name |
+|-------------|-------------|
+| 82          | KEY         |
+| 81          | AIM         |
+| 85          | WILL        |
+| 73          | LEAP        |
+| 77          | Promise     |
+| 71          | Discover    |
+| 72          | Grow        |
+| 75          | Heights     |
+| 76          | Lead        |
+| 79          | Spring      |
+| 70          | Connect     |
+| 83          | NE          |
+| 74          | ATA         |
+| 84          | Valor       |
+| 78          | Quest       |
+| 86          | LC          |
+| 80          | KCP         |
