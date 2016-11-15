@@ -1,4 +1,7 @@
 # DeansList
+
+# Attendance
+
 | ARC            | Type    | Description                                     |
 |--------------------|--------------|---------------------------------------------------------|
 | AttendanceCode     | Varchar(5)   |                                                         |
