@@ -61,3 +61,56 @@
 | SecondaryStudentID    | Int          | School Secondary Student ID                                    |
 | StudentSchoolID  | Int | School Student ID                                                        |
 | UserSchoolID    | Int          | School Staff ID #                                    |
+
+# Incidents
+
+| ARC                | Type      | DeansList Description                                              |
+|--------------------|-----------|----------------------------------------------------------|
+| Actions            |           | Array of student behaviors associated with this incident |
+| AddlReqs           | text      | Additional Requirements                                  |
+| AdminSummary       | text      | Administrative Summary                                   |
+| Alcohol Related    | binary    |                                                          |
+| Category           | text      | Referral Category                                        |
+| CategoryID         | int       | DL ID for referral category                              |
+| CloseTS            | Datetime  | Meeting end time                                         |
+| Context            | text      | Context Notes                                            |
+| CreateBy           | int       | DL User ID of creating user                              |
+| CreateFirst        | Initiated |                                                          |
+| CreateLast         |           |                                                          |
+| CreateMiddle       |           |                                                          |
+| CreateTS           | Datetime  | Creation timestamp                                       |
+| CreateTitle        |           |                                                          |
+| Drug Related       | binary    |                                                          |
+| FamilyMeetingNotes | text      |                                                          |
+| FollowupNotes      |           |                                                          |
+| GradeLevelShort    | text      | Grade Level (i.e. 1st)                                   |
+| HomeroomName       | text      |                                                          |
+| IncidentID         | int       | Unique incident identifier                               |
+| Infraction         | text      |                                                          |
+| InfractionTypeID   | int       | DL ID for infraction type                                |
+| IsReferral         | T/F       | Incident was created as the result of a referral         |
+| IssueTS            | datetime  | Initiated                                                |
+| Link               | text      |                                                          |
+| Location           | text      |                                                          |
+| LocationID         | int       | DL ID for location (dropdown)                            |
+| Police Involved    | binary    |                                                          |
+| ReportedDetails    | text      | Meeting details (input by teacher from referral)         |
+| ReturnDate         | Datetime  | Return to school                                         |
+| ReturnPeriod       | int       | Return to school period                                  |
+| ReviewTS           | Datetime  | Meeting start time                                       |
+| SchoolID           | int       | DeansList School ID                                      |
+| SendAlert          | T/F       |                                                          |
+| Status             | text      | only in list view                                        |
+| StatusID           | int       |                                                          |
+| StudentFirst       | text      |                                                          |
+| StudentID          | int       | DeansList Student ID                                     |
+| StudentLast        | text      |                                                          |
+| StudentMiddle      | text      |                                                          |
+| StudentSchoolID    | int       | Student School ID #                                      |
+| UpdateFirst        | text      |                                                          |
+| UpdateLast         | text      |                                                          |
+| UpdateMiddle       | text      |                                                          |
+| UpdateTS           | text      | Last update timestamp                                    |
+| Weapon Related     | Int       |                                                          |
+| Hearing            | text      |                                                          |
+| InjuryType         | text      |                                                          |
